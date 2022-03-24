@@ -1,0 +1,40 @@
+@import "./style/variable";
+@import "./style/utilities";
+
+body{
+    background-image: $background;
+    height: 100%;
+    background-repeat: none;
+    background-size: auto;
+}
+.container{
+    border-radius: $border-radius;
+    border: 1px solid white;
+    margin: 10% auto;
+    width:  80%;
+    background-color: white;
+}
+.flez{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+}
+.imge{
+    width: 65%;
+    margin-left: -10%;
+}
+.test{
+    width: 40%;
+}
+h1{
+    line-height: 3;
+}
+p{
+    line-height: 2;
+}
+
+@media screen and(max-width:768px) {
+    
+    
+}
